@@ -1,0 +1,26 @@
+ 1937  sudo apt update
+ 1938  sudo apt install software-properties-common
+ 1939  sudo apt-get install --reinstall software-properties-gtk
+ 1940  sudo software-properties-gtk
+ 1941  lspci
+ 1942  sudo lshw -C network
+ 1943  sudo apt-get install firmware-atheros
+ 1944  sudo rmmod ath10k_pci
+ 1945  lsmod
+ 1946  sudo rmmod ath10k_pci
+ 1947  lsmod | grep ath10k_pci
+ 1948  sudo modprobe ath10k_pci
+ 1949  ls /lib/modules/$(uname -r)/kernel/drivers/net/wireless/ath/ath10k/ath10k_pci.ko
+ 1950  sudo apt-get install --reinstall linux-modules-extra-$(uname -r)
+ 1951  sudo apt-get install linux-firmware
+ 1952  apt-cache search firmware
+ 1953  apt-cache search wireless firmware
+ 1954  apt-cache search Qualcomm Atheros firmware
+ 1955  sudo apt-get install <package-name>
+ 1956  sudo apt-get install firmare-atheros
+ 1957  sudo apt-get install firmware-atheros
+ 1958  dmesg | grep -i wireless
+ 1959  dmesg | grep -i ath
+ 1960  lsmod | grep -i ath
+ 1961  history
+                                                             -By chatgpt
